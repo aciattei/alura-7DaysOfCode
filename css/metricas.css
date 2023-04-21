@@ -1,0 +1,30 @@
+.metricas-container {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-around;
+    max-height: 288px;
+    align-items: start;
+}
+
+.metricas-container .metrica {
+    justify-content: space-around;
+}
+
+.metricas-container span {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 3.75em;
+    letter-spacing: 0.02em;
+}
+
+.metricas-container h1 {
+    font-weight: 500;
+    font-size: 1.125em;
+
+}
+
+.metricas-container p {
+    font-weight: 400;
+    color: var(--text-color);
+    max-width: 280px;
+}

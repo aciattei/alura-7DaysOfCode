@@ -1,0 +1,9 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}

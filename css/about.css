@@ -1,0 +1,34 @@
+.about {
+    font-family: 'Inter', sans-serif;
+    padding: 7rem 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+   
+  }
+  
+  .about span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: var(--main-color);
+    
+    /* Centraliza o span */
+    display: block;
+    margin: 0 auto;
+  
+  }
+  
+  .about h1 {
+    font-size: 2rem;
+  }
+  
+  .about p {
+    color: var(--text-color);
+    max-width: 50%;
+    text-align: center;
+    line-height: 1.5rem;
+  }
