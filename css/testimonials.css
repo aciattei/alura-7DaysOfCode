@@ -1,0 +1,54 @@
+:root {
+    --bg-color: #FFFFFF;
+    --text-color: #667085;
+    --text-dark: #101828;
+    --title-color: #8E2424;
+
+    --font-family: 'Inter', sans-serif;
+    --font-style: normal;
+}
+
+.testimonials-container {
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 96px;
+    
+    width: 1440px;
+    height: 500px;
+
+    background-color: var(--bg-color);
+}
+
+.testimonials-container > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 32px;
+
+    width: 1216px;
+    height: 404px;
+
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+}
+
+article > h1 {
+    color: var(--title-color);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+article > p {
+    color: var(--text-dark);
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}

@@ -1,66 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OptimusTech</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/nav.css">
-  <link rel="stylesheet" href="./css/about.css">
-  <link rel="stylesheet" href="./css/metricas.css">
-  <link rel="stylesheet" href="./css/team.css">
-</head>
-<body>
-  <nav>
-    <img src="./assets/logo.svg"/>
-    <div class="links">
-      <a href="#">Home</a>
-      <a href="#">Produtos</a>
-      <a href="#">Recursos</a>
-      <a href="#">Sobre nós</a>
-    </div>
-    <div class="buttons">
-      <button>Entrar</button>
-      <button id="signUp">Cadastrar</button>
-    </div>
-  </nav>
-  <section class="about">
-    <span>Sobre nós</span>
-    <h1>Por que somos diferentes?</h1>
-    <p>Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
-  </section>
-  <section class="metricas-container">
-    <div class="metrica">
-      <span>400+</span>
-      <h1>Projetos concluídos</h1>
-      <p>Nós ajudamos a contruir mais de 400 projetos incríveis.</p>
-    </div>
-    <div class="metrica">
-      <span>100+</span>
-      <h1>Colaboradores</h1>
-      <p>Temos mais de 100 colaboradores no nosso time que se preocupam com nossos clientes.</p>
-    </div>
-    <div class="metrica">
-      <span>20k</span>
-      <h1>Downloads</h1>
-      <p>Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000 vezes.</p>
-    </div>
-    <div class="metrica">
-      <span>500+</span>
-      <h1>Reviews 5 estrelas</h1>
-      <p>Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
-    </div>
-  </section>
-  <section class="team">
-    <span>Vagas abertas</span>
-    <h1>Estamos procurando por talentos</h1>
-    <p>Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
-    <img src="./assets/team.png" alt="Foto da equipe">
-  </section>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OptimusTech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <!--   STYLES   -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/metrics.css">
+    <link rel="stylesheet" href="./css/team.css">
+    <link rel="stylesheet" href="./css/testimonials.css">
+    <link rel="stylesheet" href="./css/footer.css">
+  </head>
+  <body>
+    <nav>
+      <img src="./assets/logo.svg"/>
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#">Produtos</a>
+        <a href="#">Recursos</a>
+        <a href="#">Sobre nós</a>
+      </div>
+      <div class="buttons">
+        <button>Entrar</button>
+        <button id="signUp">Cadastrar</button>
+      </div>
+    </nav>
+    <section class="about">
+      <span>Sobre nós</span>
+      <h1>Por que somos diferentes?</h1>
+      <p>Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
+    </section>
+    <section class="metrics-container">
+      <div class="metrics">
+        <span>400+</span>
+        <h1>Projetos concluídos</h1>
+        <p>Nós ajudamos a contruir mais de 400 projetos incríveis.</p>
+      </div>
+      <div class="metrics">
+        <span>100+</span>
+        <h1>Colaboradores</h1>
+        <p>Temos mais de 100 colaboradores no nosso time que se preocupam com nossos clientes.</p>
+      </div>
+      <div class="metrics">
+        <span>20k</span>
+        <h1>Downloads</h1>
+        <p>Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000 vezes.</p>
+      </div>
+      <div class="metrics">
+        <span>500+</span>
+        <h1>Reviews 5 estrelas</h1>
+        <p>Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
+      </div>
+    </section>
+    <section class="team">
+      <span>Vagas abertas!</span>
+      <h1>Estamos procurando por talentos</h1>
+      <p>Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+      <img src="./assets/team.png" alt="Foto da equipe">
+      <div class="jobs-container">
+        <h2>Design</h2>
+        <article class="job">
+          <h3 class="title">Product Designer</h3>
+          <div>
+            <p class="period">Full-time</p>
+            <p class="salary">Faixa salarial: R$7.000</p>
+          </div>
+        </article>
+        <article class="job">
+          <h3 class="title">UX Designer</h3>
+          <div>
+            <p class="period">Full-time</p>
+            <p class="salary">Faixa salarial: R$6.000</p>
+          </div>
+        </article>
+        <h2>Desenvolvimento de Software</h2>
+        <article class="job">
+          <h3 class="title">Desenvolvedor(a) iOS</h3>
+          <div>
+            <p class="period">Full-time</p>
+            <p class="salary">Faixa salarial: R$8.000</p>
+          </div>
+        </article>
+        <article class="job">
+          <h3 class="title">Desenvolvedor(a) Front-end</h3>
+          <div>
+            <p class="period">Full-time</p>
+            <p class="salary">Faixa salarial: R$7.000</p>
+          </div>
+        </article>
+        <article class="job">
+          <h3 class="title">Desenvolvedor(a) Back-end</h3>
+          <div>
+            <p class="period">Full-time</p>
+            <p class="salary">Faixa salarial: R$8.000</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="testimonials-container">
+      <article>
+        <h1>Veja o que nossos colaboradores falam sobre nós</h1>
+        <p>OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.</p>
+        <img src="./assets/avatar.png" alt="Avatar Julia Castro">
+      </article>  
+    </section>
+    <footer>
+      <h1>Acompanhe as oportunidades</h1>
+      <p>Seja o primeiro a saber quando novas vagas serão abertas!</p>
+      <div>
+        <input type="email" value="Seu email">
+        <button>Cadastrar</button>
+      </div>
+        <p class="rights">&copy 2022 OptimusTech. Todos os direitos reservados.</p>
+    </footer>
+  </body>
 </html>

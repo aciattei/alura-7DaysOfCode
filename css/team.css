@@ -1,0 +1,107 @@
+:root {
+    --bg-color: #FFFFFF;
+    --text-color: #667085;
+    --text-dark: #101828;
+    --title-color: #8E2424;
+
+    --font-family: 'Inter', sans-serif;
+    --font-style: normal;
+}
+
+.team {
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    height: 1798px;
+    padding: 96px 0px;
+
+}
+
+.team span {
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    
+    width: 125px;
+    height: 28px;
+    margin: 0 auto; /* centraliza o span*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgb(142, 36, 36, 0.05);
+    border-radius: 16px;
+
+    margin-bottom: 16px;
+
+}
+
+.team h1 {
+    font-size: 36px;
+    color: var(--text-dark);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+
+
+}
+
+.team p {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 64px;
+}
+
+.team img {
+    width: 1216px;
+    margin: 0 auto;
+}
+
+.team .jobs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.jobs-container h2 {
+    font-size: 1.25em;
+    font-weight: 500;
+    color: #101828;
+
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.job {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    width: 768px;
+    height: 136px;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px 28px;
+
+}
+.job > h3 {
+    font-size: 1.125em;
+    padding-bottom: 32px;
+}
+
+.job > div {
+    display: flex;
+    
+}
+
+.job > div p {
+    flex-direction: row;
+    color: var(--text-color);
+    padding-right: 24px;
+}
